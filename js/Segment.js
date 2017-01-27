@@ -28,9 +28,9 @@ class Segment {
     ctx.arc(this.x, this.y, this.diameter, 0, Math.PI * 2);
     ctx.fillStyle = "gray";
     ctx.fill();
-    // ctx.arc(this.x, this.y, this.diameter, 0, Math.PI * 2);
-    // ctx.strokeStyle = "black";
-    // ctx.stroke();
+    ctx.arc(this.x, this.y, this.diameter, 0, Math.PI * 2);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
   }
 
 };
